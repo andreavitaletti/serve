@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 700 320"
+   width="700"
+   height="320"
+   version="1.1"
+   id="svg22"
+   sodipodi:docname="zk_snark_complaint.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview22"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.2214286"
+     inkscape:cx="349.99999"
+     inkscape:cy="137.54386"
+     inkscape:window-width="1536"
+     inkscape:window-height="795"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg22" />
+  <defs
+     id="defs2">
+    <rect
+       x="599.29823"
+       y="59.76608"
+       width="87.602337"
+       height="243.15787"
+       id="rect3" />
+    <marker
+       id="arz"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#27ae60"
+         id="polygon1" />
+    </marker>
+    <marker
+       id="arzr"
+       markerWidth="10"
+       markerHeight="7"
+       refX="9"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#e74c3c"
+         id="polygon2" />
+    </marker>
+  </defs>
+  <!-- Three proof components -->
+  <rect
+     x="20"
+     y="55"
+     width="175"
+     height="115"
+     rx="8"
+     fill="#3498db"
+     opacity="0.13"
+     stroke="#3498db"
+     stroke-width="2"
+     id="rect2" />
+  <text
+     x="107"
+     y="75"
+     text-anchor="middle"
+     font-family="Arial"
+     font-size="13"
+     font-weight="bold"
+     fill="#1f38c5"
+     id="text3">Benchmark Proof</text>
+  <text
+     x="107"
+     y="96"
+     text-anchor="middle"
+     font-family="Arial"
+     font-size="11"
+     fill="#555"
+     id="text4">Opens C_B, C_τ</text>
+  <text
+     x="107"
+     y="113"
+     text-anchor="middle"
+     font-family="Arial"
+     font-size="11"
+     fill="#555"
+     id="text5">Checks F1 &lt; τ</text>
+  <text
+     x="107"
+     y="130"
+     text-anchor="middle"
+     font-family="Arial"
+     font-size="11"
+     fill="#555"
+     id="text6">Verifies Merkle proofs</text>
+  <text
+     x="107"
+     y="152"
+     text-anchor="middle"
+     font-family="Arial"
+     font-size="12"
+     font-weight="bold"
+     fill="#1f38c5"
+     id="text7">⏱ 6.75 s</text>
+  <rect
+     x="215"
+     y="55"
+     width="175"
+     height="115"
+     rx="8"
+     fill="#8e44ad"
+     opacity="0.13"
+     stroke="#8e44ad"
+     stroke-width="2"
+     id="rect7" />
+  <text
+     x="302"
+     y="75"
+     text-anchor="middle"
+     font-family="Arial"
+     font-size="13px"
+     font-weight="bold"
+     fill="#8e44ad"
+     id="text8"><tspan
+       sodipodi:role="line"
+       id="tspan1"
+       x="302"
+       y="75">Incrementa Verfiable</tspan><tspan
+       sodipodi:role="line"
+       id="tspan2"
+       x="302"
+       y="91.25">Computation Steps (×N)</tspan></text>
+  <text
+     x="302"
+     y="106"
+     text-anchor="middle"
+     font-family="Arial"
+     font-size="11px"
+     fill="#555555"
+     id="text9">Per query: Merkle +</text>
+  <text
+     x="302"
+     y="123"
+     text-anchor="middle"
+     font-family="Arial"
+     font-size="11px"
+     fill="#555555"
+     id="text10">EdDSA signature verify</text>
+  <text
+     x="302"
+     y="140"
+     text-anchor="middle"
+     font-family="Arial"
+     font-size="11px"
+     fill="#555555"
+     id="text11">Pipelined with server</text>
+  <text
+     x="302"
+     y="162"
+     text-anchor="middle"
+     font-family="Arial"
+     font-size="12px"
+     font-weight="bold"
+     fill="#8e44ad"
+     id="text12">⏱ ~21.5 s / step</text>
+  <rect
+     x="410"
+     y="55"
+     width="175"
+     height="115"
+     rx="8"
+     fill="#27ae60"
+     opacity="0.13"
+     stroke="#27ae60"
+     stroke-width="2"
+     id="rect12" />
+  <text
+     x="497"
+     y="75"
+     text-anchor="middle"
+     font-family="Arial"
+     font-size="13"
+     font-weight="bold"
+     fill="#27ae60"
+     id="text13">Aggregation (Groth16)</text>
+  <text
+     x="497"
+     y="96"
+     text-anchor="middle"
+     font-family="Arial"
+     font-size="11"
+     fill="#555"
+     id="text14">Recursively composes</text>
+  <text
+     x="497"
+     y="113"
+     text-anchor="middle"
+     font-family="Arial"
+     font-size="11"
+     fill="#555"
+     id="text15">benchmark + IVC proofs</text>
+  <text
+     x="497"
+     y="130"
+     text-anchor="middle"
+     font-family="Arial"
+     font-size="11"
+     fill="#555"
+     id="text16">Single succinct proof</text>
+  <text
+     x="497"
+     y="152"
+     text-anchor="middle"
+     font-family="Arial"
+     font-size="12"
+     font-weight="bold"
+     fill="#27ae60"
+     id="text17">⏱ 26.15 s</text>
+  <!-- Arrows to result -->
+  <line
+     x1="107"
+     y1="172"
+     x2="107"
+     y2="210"
+     stroke="#3498db"
+     stroke-width="1.5"
+     marker-end="url(#arz)"
+     stroke-dasharray="5,3"
+     id="line17" />
+  <line
+     x1="302"
+     y1="172"
+     x2="302"
+     y2="210"
+     stroke="#8e44ad"
+     stroke-width="1.5"
+     marker-end="url(#arz)"
+     stroke-dasharray="5,3"
+     id="line18" />
+  <line
+     x1="497"
+     y1="172"
+     x2="497"
+     y2="210"
+     stroke="#27ae60"
+     stroke-width="1.5"
+     marker-end="url(#arz)"
+     stroke-dasharray="5,3"
+     id="line19" />
+  <!-- Result box -->
+  <rect
+     x="19.922535"
+     y="211.92253"
+     width="564.45319"
+     height="58.15493"
+     rx="6.7904143"
+     fill="#27ae60"
+     opacity="0.15"
+     stroke="#27ae60"
+     stroke-width="1.84507"
+     id="rect19" />
+  <text
+     x="302"
+     y="234"
+     text-anchor="middle"
+     font-family="Arial"
+     font-size="13px"
+     font-weight="bold"
+     fill="#1a7a3c"
+     id="text19">π_complaint submitted on-chain</text>
+  <text
+     x="302"
+     y="256"
+     text-anchor="middle"
+     font-family="Arial"
+     font-size="12px"
+     fill="#555555"
+     id="text20">Smart contract verifies → if valid: refund client + slash server deposit</text>
+  <!-- Total time note -->
+  <text
+     x="86.023407"
+     y="289.26901"
+     text-anchor="middle"
+     font-family="Arial"
+     font-size="11px"
+     fill="#888888"
+     id="text21">Total ≈ 7.7 min (20 queries)</text>
+  <text
+     x="86.023407"
+     y="304.26901"
+     text-anchor="middle"
+     font-family="Arial"
+     font-size="11px"
+     fill="#888888"
+     id="text22">Peak RAM: 8.6 GB</text>
+  <text
+     xml:space="preserve"
+     id="text2"
+     style="text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3);display:inline;fill:#000000"><tspan
+       x="599.29883"
+       y="70.684127"
+       id="tspan4">IVC allows the </tspan><tspan
+       x="599.29883"
+       y="85.684127"
+       id="tspan5">proof to be </tspan><tspan
+       x="599.29883"
+       y="100.68413"
+       id="tspan6">updated </tspan><tspan
+       x="599.29883"
+       y="115.68413"
+       id="tspan7">incrementally. </tspan><tspan
+       x="599.29883"
+       y="130.68413"
+       id="tspan8">The client
+</tspan><tspan
+       x="599.29883"
+       y="145.68413"
+       id="tspan9">can generate </tspan><tspan
+       x="599.29883"
+       y="160.68413"
+       id="tspan10">the proof for </tspan><tspan
+       x="599.29883"
+       y="175.68413"
+       id="tspan11">step j − 1 while </tspan><tspan
+       x="599.29883"
+       y="190.98544"
+       id="tspan12">waiting for the </tspan><tspan
+       x="599.29883"
+       y="205.98544"
+       id="tspan13">server’s </tspan><tspan
+       x="599.29883"
+       y="220.98544"
+       id="tspan14">response to
+</tspan><tspan
+       x="599.29883"
+       y="235.98544"
+       id="tspan15">query j, so the </tspan><tspan
+       x="599.29883"
+       y="250.98544"
+       id="tspan16">proving work is </tspan><tspan
+       x="599.29883"
+       y="265.98544"
+       id="tspan17">pipelined with </tspan><tspan
+       x="599.29883"
+       y="280.98546"
+       id="tspan18">the query/</tspan><tspan
+       x="599.29883"
+       y="295.98546"
+       id="tspan19">response</tspan></text>
+</svg>
